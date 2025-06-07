@@ -1,0 +1,133 @@
+*, html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav {
+    background-color: rgb(92, 22, 22);
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu {
+    margin-left: 50%;
+}
+.menu > ul > li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu > ul > li > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.menu > ul > li > a:hover {
+    color: rgb(245, 217, 217);
+    background-color: rgb(36, 1, 1);
+    padding: 4px;
+}
+.banner {
+    width: 1300px;
+}
+.banner > img {
+    width: 1310px;
+
+
+}
+.menu li a:hover {
+    color:chartreuse;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 11rem;
+    background-color: rgb(158, 122, 122);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.toko {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.toko h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.jenis-keyring {
+    background-color: rgb(92, 14, 9);
+    box-shadow: 0 0 10px rgb(245, 245, 245);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.jenis-keyring:hover {
+    transform: scale(1.3); 
+}
+.jenis-keyring img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.jenis-keyring h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+.jenis-keyring p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.jenis-keyring button {
+    background-color: brown;
+    color: antiquewhite;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color ease;
+}
+.jenis-keyring button:hover {
+    background-color: coral;
+    color: antiquewhite;
+}
+.jenis{
+    margin-bottom: 23px;
+    text-align: center;
+}
+.jenis h2{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.Paket-Aksesoris-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.paket-aksesoris-item{
+    background-color: rgb(92, 14, 9);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    flex: 2;
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.paket-aksesoris-item:hover{
+    transform: scale(1.1);
+}
